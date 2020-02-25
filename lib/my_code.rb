@@ -1,14 +1,23 @@
 # My Code here....
+<<<<<<< HEAD
 def map_to_negativize(source_array)
   negative_array=[]
   index = 0
   while index<source_array.length
     no = source_array[index]
+=======
+def map_to_negativize(numbers)
+  negative_array=[]
+  index = 0
+  while index<numbers.length
+    no = numbers[index]
+>>>>>>> c5672efc63849fd60a76f4e5bd8a6b7606ae9c23
     negative_array.push(no * -1)
     index+=1;
   end
   return negative_array
 end
+<<<<<<< HEAD
 
 def map_to_no_change(source_array)
   no_change = [];
@@ -76,3 +85,6 @@ return FALSE
 end
 
   
+=======
+    
+>>>>>>> c5672efc63849fd60a76f4e5bd8a6b7606ae9c23
